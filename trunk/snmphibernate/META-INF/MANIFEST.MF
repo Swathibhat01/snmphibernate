@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SnmpHibernate API Plug-in
+Bundle-SymbolicName: net.sourceforge.snmphibernate.api
+Bundle-Version: 1.1.0
+Bundle-ClassPath: .
+Bundle-Vendor: Ery Lee(ery.lee@gmail.com)
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: net.sourceforge.snmphibernate.api,
+ net.sourceforge.snmphibernate.api.annotation
