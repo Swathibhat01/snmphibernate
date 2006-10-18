@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Snmp4J Implementation for SnmpHibernate API
+Bundle-Version: 1.1.0
+Bundle-ClassPath: .,
+ lib/log4j-1.2.11.jar
+Bundle-Vendor: Ery Lee (ery.lee@gmail.com)
+Bundle-Localization: plugin
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: net.sourceforge.snmphibernate.api
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: net.sourceforge.snmphibernate.impl.snmp4j
+Bundle-Activator: net.sourceforge.snmphibernate.impl.snmp4j.Activator
