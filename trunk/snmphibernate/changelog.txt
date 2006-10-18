@@ -1,4 +1,0 @@
-v1.1.0 changes:
-1. API to support generics
-2. Add Trapd API
-3. Fix some bugs
