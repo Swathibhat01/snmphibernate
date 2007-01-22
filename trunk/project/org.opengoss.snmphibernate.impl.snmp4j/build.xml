@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- ====================================================================== 
+     2006-12-23 下午07:10:19                                                        
+
+     org.opengoss.snmphibernate.impl.snmp4j    
+     OpenGoss SnmpHibanate Snmp4J Implementation 
+                   
+     Ery Lee(ery.lee@gmail.com)                                                                
+     ====================================================================== -->
+<project name="org.opengoss.snmphibernate.impl.snmp4j" default="jar">
+	<property name="version" value="1.0.0" />
+	<!-- ================================= 
+          target: jar              
+         ================================= -->
+	<target name="jar" depends="compile">
+			<jar jarfile="${release.folder}/plugins/${ant.project.name}_${version}_${release.time}.jar" manifest="META-INF/MANIFEST.MF">
+				<fileset dir=".">
+					<include name="plugin.properties"/>
+					<include name="LICENSE*" />
+					<include name="changelog.txt" />
+					<include name="META-INF/*" />
+					<include name="lib/*" />
+				</fileset>
+				<fileset dir="bin" />
+			</jar>
+	</target>
+
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: complile the project                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="compile">
+		<ant antfile="eclipse.build.xml" target="build" />
+	</target>
+
+</project>

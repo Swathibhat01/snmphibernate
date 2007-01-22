@@ -1,0 +1,8 @@
+v1.2.0 changes:
+1. Upgrade SNMP4J to 1.7.6 version
+2. Finish the trapd support.
+
+v1.1.0 changes:
+1. Upgrade SNMP4J to 1.7.2 version
+2. Support Trapd
+3. Fix some bugs
